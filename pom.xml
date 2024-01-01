@@ -43,15 +43,31 @@
             <version>${camel.version}</version>
         </dependency>
 
+<!--        <dependency>-->
+<!--            <groupId>org.apache.camel.springboot</groupId>-->
+<!--            <artifactId>camel-kafka-starter</artifactId>-->
+<!--            <version>${camel.version}</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.apache.camel.springboot</groupId>
-            <artifactId>camel-kafka-starter</artifactId>
+            <artifactId>camel-http-starter</artifactId>
+            <version>${camel.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.camel.springboot</groupId>
+            <artifactId>camel-csv-starter</artifactId>
             <version>${camel.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.camel.springboot</groupId>
             <artifactId>camel-activemq-starter</artifactId>
+            <version>${camel.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.camel.springboot</groupId>
+            <artifactId>camel-crypto-starter</artifactId>
             <version>${camel.version}</version>
         </dependency>
 
